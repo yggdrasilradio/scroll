@@ -1,7 +1,7 @@
 SCROLL: MrDave6309's BASIC scrolling demo for Coco3
 ==========
 
-Requires my decbopp preprocessor, and some fiddling.
+Requires my `decbpp` preprocessor, plus some fiddling.
 
-Mount the dsk file, then RUN"SCROLL.BAS"
+Or just mount the dsk file, then `RUN"SCROLL.BAS"`
 
