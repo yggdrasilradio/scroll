@@ -79,20 +79,8 @@
 	if i = 93  then
 		vv = vv + 2	' shift right
 	end if
-	if i$ = "M" then
-		vv = vv + 129	' lower right
-	end if
-	if i$ = "B" then
-		vv = vv + 127	' lower left
-	end if
-	if i$ = "Y" then
-		vv = vv - 129	' upper left
-	end if
-	if i$ = "I" then
-		vv = vv - 127	' upper right
-	end if
 	if i$ = "S" then
-		palette 15, rnd(63) ' random palette shift
+		palette 15, rnd(63) ' random palette
 	end if
 
 	' Clipping
